@@ -15,6 +15,7 @@
   "dependencies": {
     "@nuxtjs/google-fonts": "^3.0.1",
     "sass": "^1.63.3",
+    "vue3-lottie": "^2.7.0",
     "vuetify": "^3.3.3"
   }
 }

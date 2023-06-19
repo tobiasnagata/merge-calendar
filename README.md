@@ -1,42 +1,30 @@
-# Nuxt 3 Minimal Starter
+# Merge Calendar
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Overview
+This repository aims to create an optimal schedule by merging the schedules of multiple individuals, considering their availability and preferences. It leverages algorithms and data analysis techniques to streamline the process of schedule coordination, minimizing conflicts and improving overall efficiency.
 
-## Setup
+## Technical Spesification
+- Nuxt.js v.3.5.2 `javascript`
+- Vuetify v.3.3.3
 
-Make sure to install the dependencies:
 
-```bash
-# yarn
-yarn install
+## Getting Started
 
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`
+First, run the development server:
 
 ```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 ```
 
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Deployment
+this repository deployed using `vercel` and will be updated automically to the following link :
+
+https://merge-calendar.vercel.app/

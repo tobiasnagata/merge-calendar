@@ -7,7 +7,7 @@ const lightTheme = {
   dark: false,
   colors: {
     primary: "#606C5D",
-    secondary: "#F1C376",
+    secondary: "#e39a1e",
     "button-primary": "#1F6E8C",
   },
 };
@@ -15,8 +15,8 @@ const lightTheme = {
 const darkTheme = {
   dark: true,
   colors: {
-    primary: "#606C5D",
-    secondary: "#F1C376",
+    primary: "#F4EEE0",
+    secondary: "#F29727",
     "button-primary": "#1F6E8C",
   },
 };
@@ -26,7 +26,7 @@ export default defineNuxtPlugin((nuxtApp) => {
     components,
     directives,
     theme: {
-      defaultTheme: "lightTheme",
+      defaultTheme: "darkTheme",
       themes: {
         lightTheme,
         darkTheme,

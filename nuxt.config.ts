@@ -2,8 +2,9 @@
 export default defineNuxtConfig({
   modules: ["@nuxtjs/google-fonts"],
   css: [
+    "@/assets/css/main.css",
     "vuetify/lib/styles/main.sass",
-    '@fortawesome/fontawesome-svg-core/styles.css'
+    "@fortawesome/fontawesome-svg-core/styles.css",
   ],
   build: {
     transpile: ["vuetify"],
